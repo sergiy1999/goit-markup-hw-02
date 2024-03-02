@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFF;
     }
@@ -92,10 +92,19 @@ body{
         background-color:  #404bbf;
     }
     
+    .text-list-name-info{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+
     .text-list-name{
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         color: #2e2f42;
     }
