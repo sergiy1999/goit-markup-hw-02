@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFF;
     }
@@ -12,11 +12,19 @@ body{
      text-decoration: none;
     }
     
+    .text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+
     .logo{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -59,7 +67,7 @@ body{
     .hero-name{
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -70,6 +78,7 @@ body{
     }
     
     .hero-order-btn{
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -80,7 +89,7 @@ body{
     
     .hero-order-btn:hover,
     .hero-order-btn:active{
-        background:  #404bbf;
+        background-color:  #404bbf;
     }
     
     .text-list-name{
@@ -120,11 +129,6 @@ body{
         color: #434455;
     }
     
-    .team-mentor-img{
-        width: 264px;
-        height: 260px;
-    }
-    
     .name-list{
         font-weight: 700;
         font-size: 36px;
@@ -143,18 +147,10 @@ body{
         color: #434455;
     }
     
-    .title-name{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
-    
     .footer{
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 1.17;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         background: #2e2f42;
@@ -164,7 +160,3 @@ body{
         color: #f4f4fd;
     }
     
-    .option_img{
-        width: 360px;
-        height: 300px;
-    }
